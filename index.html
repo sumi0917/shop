@@ -14,10 +14,17 @@ ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}.it{display:flex;ali
 .it.hit{outline:2px solid var(--pt)}.empty{color:var(--sub);text-align:center;padding:30px 0;display:none}
 </style></head><body><div class="wrap">
 <h1>오늘의 살림 픽</h1><p class="intro">스레드에서 소개한 물건을 번호로 모아 뒀어요. 번호나 이름으로 찾아보세요.</p>
-
+<p class="notice">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
 <input class="q" id="q" type="search" inputmode="search" placeholder="상품 번호나 이름 (예: 23)" autocomplete="off">
 <ul id="list">
-
+<li class="it" id="n2" data-q="2 2번 산타장식 사다리타는 벽장식 산타">
+  <img src="https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/vendor_inventory/6751/0a1e9cfedbdd0ea420f45a9534a8cc8a6e94a3ea9f01a06d318b42fe7776.jpg" alt="" loading="lazy" referrerpolicy="no-referrer">
+  <div class="tx"><b>2번</b><span>산타장식</span></div>
+  <a class="buy" href="https://link.coupang.com/a/iiQcfPklWu" target="_blank" rel="sponsored nofollow noopener">구매하기</a></li>
+<li class="it" id="n1" data-q="1 1번 아토베리어 크림 에스트라 아토베리어365 크림 플러스, 90ml, 1개 - 페이셜크림 | 쿠팡">
+  <img src="https://thumbnail.coupangcdn.com/thumbnails/remote/640x640ex/image/retail/images/955083884438865-364ff482-1d92-43b5-b230-a8f3aea794d3.jpg" alt="" loading="lazy" referrerpolicy="no-referrer">
+  <div class="tx"><b>1번</b><span>아토베리어 크림</span></div>
+  <a class="buy" href="https://link.coupang.com/a/iiMNosQ3nU" target="_blank" rel="sponsored nofollow noopener">구매하기</a></li>
 </ul><p class="empty" id="empty">찾는 상품이 없어요</p></div>
 <script>
 const q=document.getElementById('q'),its=[...document.querySelectorAll('.it')],empty=document.getElementById('empty');
